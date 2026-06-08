@@ -63,13 +63,13 @@ Each CSV in `RAW DATA/` must have these columns:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Toufiq1806/boomtown-etl.git
-cd boomtown-etl
+git clone https://github.com/Toufiq1806/BoomTown-Productions-Expense-ETL-Pipeline.git
+cd BoomTown-Productions-Expense-ETL-Pipeline
 ```
 
 ### 2. Install Python dependencies
 ```bash
-pip install pandas pymysql
+pip install -r requirements.txt
 ```
 
 ### 3. Set up the MySQL database
@@ -92,7 +92,7 @@ Open `load_to_mysql.py` and update:
 con = pymysql.connect(
     host="127.0.0.1",
     user="root",
-    password="YOUR_PASSWORD",   # <-- change this
+    password="YOUR_PASSWORD",  # your password
     database="BoomTown",
 )
 ```
