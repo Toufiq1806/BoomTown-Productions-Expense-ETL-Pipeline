@@ -1,0 +1,15 @@
+project_id,department,amount,date
+1,camera,13500,2026-04-01
+1,camera,9000,2026-04-01
+1,camera,1600,2026-04-02
+1,camera,500,2026-04-03
+1,catering,2925,2026-04-01
+1,catering,1125,2026-04-01
+1,catering,3750,2026-04-02
+1,catering,1800,2026-04-03
+1,transport,416,2026-04-01
+1,transport,228,2026-04-01
+1,transport,424,2026-04-02
+1,transport,84,2026-04-03
+1,talent,15000,2026-04-01
+1,talent,8000,2026-04-01
