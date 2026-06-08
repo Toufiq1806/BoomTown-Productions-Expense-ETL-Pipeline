@@ -5,7 +5,7 @@ import pymysql
 con = pymysql.connect(
     host="127.0.0.1",
     user="root",
-    password="sql123",
+    password="---",
     database="BoomTown",
 )
 
